@@ -1,0 +1,52 @@
+#welcomePage {
+  background-color: transparent;
+  min-height: 580px;
+  display: flex;
+}
+
+#SideIconLinks {
+  
+}
+
+#SideIconLinks ul {
+  margin-top: 605%;
+  margin-left: -20%;
+}
+#SideIconLinks li {
+  margin-top: 70%;
+  list-style: none;
+}
+
+.iconImage {
+  font-size: 115%;
+  color: #5f5f5f;
+}
+
+#verticalLine {
+  border-left: 2px solid #5f5f5f;
+  height: 50px;
+  margin-left: 25%;
+}
+
+
+/* Icon change color after hover*/
+#firstH:hover #firstI{
+  color:#e38443;
+}
+
+#secondH:hover #secondI{
+  color:#e38443;
+}
+
+
+
+
+#MiddleSection {
+  background-color: turquoise;
+  width: fill;
+}
+
+#ScrollSection {
+  background-color: yellow;
+}
+
