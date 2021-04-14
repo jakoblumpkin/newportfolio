@@ -1,0 +1,57 @@
+body {
+   margin-top: -21px;
+   background-color: #e6e6e6;
+}
+header {
+  min-height: 105px;
+  background-color: transparent;
+}
+#name {
+  display: flex;
+  position: absolute;
+  margin-left: 8%;
+  margin-top: 1%;
+}
+
+#squareName {
+  color: #e38443;
+  font-size: 38%;
+  margin-top: 21%;
+  position: relative;
+  left: .75%;
+}
+
+
+#nav-bar {
+  display: flex;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  color: black;
+  margin: 16px;
+  font-family: "Poppins", sans-serif;
+}
+#nav-bar ul {
+  list-style: none;
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 37px;
+}
+
+#nav-bar li{
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 105%;
+}
+
+#nav-bar li:hover {
+  text-decoration: underline solid #e38443 2.7px;
+}
+
+.squareNav {
+  font-size: 20%;
+  position: relative;
+  left: .75%;
+}
