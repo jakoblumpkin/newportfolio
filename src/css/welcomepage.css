@@ -34,16 +34,77 @@
   color:#e38443;
 }
 
+
+
 #secondH:hover #secondI{
   color:#e38443;
+}
+
+#thirdH:hover #thirdI{
+  color:#e38443;
+}
+
+#LinkedinPop {
+  position: absolute;
+  left: 8%;
+  top: 80.6%;
+  opacity: 0;
+}
+
+#TwitterPop {
+  position: absolute;
+  left: 8%;
+  top: 73.2%;
+  opacity: 0;
+}
+
+@keyframes IconAima {
+  from {opacity: 0;}
+
+  to {opacity: 1;
+     transform: translate3d(-20px,0,0);}
+}
+
+
+#GithubPop {
+  position: absolute;
+  left: 8%;
+  top: 66.3%;
+  opacity: 0;
 }
 
 
 
 
+
+
+
+
+
+.notePop{
+  background-color: #e38443;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #MiddleSection {
-  background-color: turquoise;
-  width: fill;
+  width: stretch;
 }
 
 #ScrollSection {

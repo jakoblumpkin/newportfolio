@@ -10,13 +10,18 @@ header {
   display: flex;
   position: absolute;
   margin-left: 8%;
-  margin-top: 1%;
+  margin-top: 3.6%;
+}
+
+#name h1 {
+  font-size: 160%;
+  font-family: 'DM Sans', sans-serif;
 }
 
 #squareName {
   color: #e38443;
   font-size: 38%;
-  margin-top: 21%;
+  margin-top: 9.5%;
   position: relative;
   left: .75%;
 }
@@ -54,4 +59,5 @@ header {
   font-size: 20%;
   position: relative;
   left: .75%;
+  top: 2.5px;
 }
