@@ -91,23 +91,139 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 #MiddleSection {
   width: stretch;
 }
 
-#ScrollSection {
-  background-color: yellow;
+#splashImage {
+  width: 60%;
+  height: 95%;
+  background-image: url(../images/splash.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 1% auto;
 }
 
+#myImage {
+   
+}
+
+#textforintro {
+  background-color: transparent;
+  width: 500px;
+  height: 300px;
+  position: relative;
+  margin: 0 auto;
+  top: 280px;
+}
+
+#textforintro {
+   font-family: 'DM Sans', sans-serif;
+   font-size: smaller;
+   color: white;
+   text-align: center;
+}
+
+#textforintro h1{
+  font-weight: 1000;
+  font-size: 50px;
+  text-shadow: 1px 1px black;
+}
+
+#getintouch {
+   background-color: transparent;
+   border-color: white;
+   padding: 8px 24px;
+   box-shadow: none;
+}
+
+#getintouch:hover {
+  background-color: white;
+  color: black;
+}
+
+#getintouch:active {
+  box-shadow: 1px 1px 1px 1px #e38443;
+}
+
+
+
+
+#ScrollSection {
+  background-color: transparent;
+  width: 6%;
+}
+
+#ScrollSection ul {
+  list-style: none;
+  margin-top: 470%;
+}
+
+#ScrollSection #scrollText {
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: #5f5f5f;
+  transform: rotate(90deg);
+}
+
+#ScrollSection a {
+  text-decoration: none;
+}
+
+#verticallineScroll {
+  border-left: 2px solid #5f5f5f;
+  height: 50px;
+  margin-left: 47%;
+  margin-top: 120%;
+  color: #5f5f5f;
+}
+
+
+@keyframes blackColor {
+  from {
+     color: #5f5f5f;
+  }
+
+  to {
+    color: black;
+  }
+}
+
+#ScrollSection #scrollText:hover{
+  animation: blackColor 1s;
+  animation-fill-mode: forwards;
+}
+
+/* Links */
+
+#LinksS {
+  background-color: transparent;
+  height: 300px;
+}
+#CardRow {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 100px;
+  display: flex;
+}
+#theContainer {
+   width: 100%;
+}
+
+#ExperenceCard {
+  width: 30%;
+  height: 140px;
+  border-radius: 10px;
+  position: relative;
+  left: 20%;
+}
+
+#ProjectCard {
+  width: 30%;
+  height: 140px;
+  border-radius: 10px;
+  position: relative;
+  right: -22%;
+}

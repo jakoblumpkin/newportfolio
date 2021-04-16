@@ -1,7 +1,10 @@
 function ScrollSection() {
   return (
     <div id="ScrollSection">
-      <p>ScrollSection</p>
+      <ul>
+        <a href="/"><li id="scrollText">SCROLL</li></a>
+        <li id="verticallineScroll"></li>
+      </ul>
     </div>
   );
 }

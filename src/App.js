@@ -5,6 +5,7 @@ import './css/welcomepage.css';
 import SideIconLinks from './SideIconLinks';
 import MiddleSection from './MiddleSection';
 import ScrollSection from './ScrollSection';
+import Links from './Links/Links';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <MiddleSection/>
       <ScrollSection/>
     </section>
+    <Links/>
   </body>
   );
 }
