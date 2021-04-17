@@ -208,22 +208,104 @@
   top: 100px;
   display: flex;
 }
+#CardRow a {
+  text-decoration: none;
+}
 #theContainer {
    width: 100%;
 }
 
 #ExperenceCard {
-  width: 30%;
+  width: 35%;
   height: 140px;
   border-radius: 10px;
   position: relative;
-  left: 20%;
+  left: 13%;
+}
+
+@keyframes moveUp {
+  from {
+    top: 0px;
+  }
+  to {
+    top: -14px;
+  }
+}
+#ExperenceCard:hover {
+  animation: moveUp .3s forwards;
 }
 
 #ProjectCard {
-  width: 30%;
+  width: 35%;
   height: 140px;
   border-radius: 10px;
   position: relative;
-  right: -22%;
+  right: -19%;
+}
+
+#ProjectCard:hover {
+  animation: moveUp .3s forwards;
+}
+
+.insideCard {
+  display: flex;
+}
+
+#backgroundEmblem {
+  background-color: black;
+  width: 19%;
+  height: 70px;
+  border-radius: 120px;
+  position: relative;
+  left: 9%;
+  top: 30px;
+}
+#backgroundEmblem img{
+  position: relative;
+  left: 16%;
+  top: 8px;
+}
+#backgroundCheck {
+  background-color: #e38443;
+  width: 19%;
+  height: 70px;
+  border-radius: 120px;
+  position: relative;
+  left: 9%;
+  top: 30px;
+}
+
+#backgroundCheck img{
+  width: 80%;
+  position: relative;
+  left: 11.5%;
+  top: 5.5px;
+}
+
+.rightExperience {
+  position: relative;
+  top: 23px;
+  left: 19%;
+}
+
+.rightExperience h2{
+  color: #e38443;
+  position: relative;
+  left: 30%;
+  top: 3px;
+  font-size: 37px;
+}
+
+.rightExperience p {
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.arrowIcon {
+  color: #5f5f5f;
+  font-size: 16px;
+  position: relative;
+  left: 26%;
+  top: 60px;
 }
