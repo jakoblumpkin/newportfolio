@@ -61,3 +61,49 @@ header {
   left: .75%;
   top: 2.5px;
 }
+
+@media only screen and (max-width: 1024px) {
+  #name h1 {
+    font-size: 130%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #nav-bar ul {
+    display: none;
+  }
+  #nav-bar {
+    background-color: white;
+    height: 2px;
+    width: 900px;
+    min-height: 80px;
+  }
+  #name h1 {
+    position: relative;
+    top: 10px;
+  }
+  #ScrollSection {
+    display: none;
+  }
+  #MiddleSection {
+    margin: auto 0;
+  }
+  #squareName {
+    margin-top: 15.8%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #name h1 {
+    top: 34px;
+    font-size: 50px;
+    font-weight: 500;
+  }
+  #squareName {
+    margin-top: 18.5%;
+    font-size: 14px;
+  }
+  #nav-bar {
+    height: 135px;
+  }
+}

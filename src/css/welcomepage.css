@@ -309,3 +309,127 @@
   left: 26%;
   top: 60px;
 }
+
+@media only screen and (max-width: 1024px) {
+  #textforintro h1{
+    font-size: 40px;
+  }
+   #splashImage {
+     width: 80%;
+  }
+  #verticallineScroll {
+    margin-top: 300%;
+  }
+  #backgroundEmblem {
+    height: 66px;
+    width: 21%;
+  }
+  #backgroundEmblem img{
+    left: 13.8%;
+  }
+
+  #backgroundCheck {
+    height: 66px;
+    width: 21%;
+  }
+  #backgroundCheck img{
+    left: 11%;
+  }
+
+  .rightExperience {
+    left: 15%;
+  }
+  .rightExperience h2{
+    font-size: 35px;
+  }
+
+  .rightExperience p{
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #SideIconLinks {
+    display: none;
+  }
+  #textforintro h1 {
+    color: black;
+    text-shadow: 0px 0px black;
+  }
+  #getintouch {
+    color: black;
+    border-color: black;
+  }
+  #MiddleSection {
+    position: relative;
+    left: -2%;
+  }
+  #splashImage {
+    height:70%;
+    width: 40%;
+    position: relative;
+    left: 10%;
+  }
+  #textforintro {
+    position: relative;
+    left: -30%;
+  }
+  #ExperenceCard {
+    width: 47%;
+  }
+  #ProjectCard {
+    width: 47%;
+  }
+  #CardRow {
+    left:-2%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #splashImage {
+    height: 700px;
+    width: 200%;
+  }
+  #textforintro {
+    top: 450px;
+    left: 1%;
+  }
+  #textforintro h1 {
+    font-size: 70px;
+  }
+  #getintouch {
+    height: 70px;
+    font-size: 37px;
+  }
+  #CardRow {
+    display: inline;
+  }
+  
+  #ExperenceCard {
+    width: 205%;
+    height: 200px;
+    position: relative;
+    left: 40px;
+    border-radius: 15px;
+  }
+  #ProjectCard {
+    width: 205%;
+    height: 200px;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    border-radius: 15px;
+  }
+
+  #backgroundEmblem {
+    height: 140px;
+    width: 18%;
+  }
+
+  #backgroundEmblem img{
+    width: 75%;
+    height: 87px;
+    top: 26px;
+    left: 13%;
+  }
+}
