@@ -376,6 +376,7 @@
   }
   #ExperenceCard {
     width: 47%;
+
   }
   #ProjectCard {
     width: 47%;
@@ -407,14 +408,14 @@
   
   #ExperenceCard {
     width: 205%;
-    height: 200px;
+    height: 230px;
     position: relative;
     left: 40px;
     border-radius: 15px;
   }
   #ProjectCard {
     width: 205%;
-    height: 200px;
+    height: 230px;
     position: relative;
     top: 40px;
     left: 40px;
@@ -431,5 +432,53 @@
     height: 87px;
     top: 26px;
     left: 13%;
+  }
+  #backgroundCheck {
+    height: 140px;
+    width: 18%;
+  }
+  #backgroundCheck img{
+    top: 13px;
+  }
+  .rightExperience h2{
+    font-size: 62px;
+  }
+  .rightExperience p{
+    font-size: 40px;
+  }
+  .rightExperience {
+    left: 22%;
+  }
+  .arrowIcon {
+    font-size: 30px;
+    left: 30%;
+    top: 84px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #ExperenceCard {
+    width: 230%;
+    left: 50px;
+  }
+  #ProjectCard {
+    width: 230%;
+    left: 50px;
+  }
+  #splashImage {
+    margin-left: 34px;
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+  #splashImage {
+    width: 240%;
+  }
+  #ExperenceCard {
+    width: 270%;
+  }
+  #ProjectCard {
+    width: 270%;
   }
 }
