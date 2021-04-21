@@ -24,8 +24,10 @@ function SideIconLinks() {
       GIcon.style.animationFillMode="";
       GIcon.style.opacity=0;
     }
-    firstOne.addEventListener("mouseover", firstQuote);
-    firstOne.addEventListener("mouseout", firstQuoteOut);
+    if(firstOne){
+        firstOne.addEventListener("mouseover", firstQuote);
+        firstOne.addEventListener("mouseout", firstQuoteOut);
+    }
 
     //second
     function secondQuote(){
@@ -41,8 +43,10 @@ function SideIconLinks() {
       TIcon.style.animationFillMode="";
       TIcon.style.opacity=0;
     }
-    secondOne.addEventListener("mouseover", secondQuote);
-    secondOne.addEventListener("mouseout", secondQuoteOut);
+    if(secondOne){
+      secondOne.addEventListener("mouseover", secondQuote);
+      secondOne.addEventListener("mouseout", secondQuoteOut);
+    }
 
     //third
     function thirdQuote(){
@@ -58,8 +62,10 @@ function SideIconLinks() {
       LIcon.style.animationFillMode="";
       LIcon.style.opacity=0;
     }
-    thirdOne.addEventListener("mouseover", thirdQuote);
-    thirdOne.addEventListener("mouseout", thirdQuoteOut);
+    if(thirdOne){
+        thirdOne.addEventListener("mouseover", thirdQuote);
+        thirdOne.addEventListener("mouseout", thirdQuoteOut);
+    }
    }
 
 
@@ -70,9 +76,9 @@ function SideIconLinks() {
       <div id="TwitterPop"><PopoverSection name="TWITTER"/></div>
       <div id="LinkedinPop"><PopoverSection id="LinkedinPop" name="LINKEDIN"/></div>
       <ul>
-        <li><a id="firstH" href="/"><FaGithub id="firstI" className="iconImage" /></a></li>
-        <li><a id="secondH" href="/"><FaTwitter id="secondI" className="iconImage"/></a></li>
-        <li><a id="thirdH" href="/"><FaLinkedinIn id="thirdI" className="iconImage"/></a></li>
+        <li><a id="firstH" target="_blank" rel="noreferrer" href="http://github.com/jakoblumpkin"><FaGithub id="firstI" className="iconImage" /></a></li>
+        <li><a id="secondH" target="_blank" rel="noreferrer" href="http://twitter.com/jakob_lumpkin"><FaTwitter id="secondI" className="iconImage"/></a></li>
+        <li><a id="thirdH" target="_blank" rel="noreferrer" href="http://www.linkedin.com/in/jakob-lumpkin-541541184/"><FaLinkedinIn id="thirdI" className="iconImage"/></a></li>
         <li id="verticalLine"></li>
       </ul>
     </div>

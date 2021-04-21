@@ -1,0 +1,196 @@
+#about {
+  background-color: transparent;
+  height: 600px;
+  display: flex;
+}
+
+#row33 {
+  background-color: transparent;
+  min-height: 300px;
+  margin-top: 115px;
+  margin-left: 120px;
+}
+
+#row:nth-child(1) {
+  width: 80%;
+}
+
+#splashPhoto {
+  background-image: url(../images/splashabout.png);
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 500px;
+  margin-left: 30px;
+}
+
+#middle {
+  list-style: none;
+  position: relative;
+  left: -45px;
+
+}
+
+#middle li:nth-child(1){
+  transform: rotate(-90deg);
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+  top: 40px;
+}
+#middle li:nth-child(2) {
+  list-style: none;
+  position: relative;
+  margin-left: 49%;
+  margin-top: 100%;
+  border-left: 2px solid #5f5f5f;
+  height: 50px;
+}
+
+#aboutText h2 {
+   font-size: -30px;
+   font-family: 'DM Sans', sans-serif;
+}
+#aboutText {
+  position: relative;
+  right: 70px;
+}
+
+#aboutText p {
+  margin-top: 10px;
+  text-indent: 10%;
+  max-width: 400px;
+}
+
+#hireButton {
+  background-color: #e38443;
+  color: black;
+  padding: 7px 25px;
+  font-weight: 600;
+}
+#hireButton:active {
+  box-shadow: 2px 2px 2px 2px #e38443;
+  border-color: transparent;
+}
+
+#hireButton:hover {
+  opacity: 0.9;
+}
+
+@media only screen and (max-width: 1024px) {
+  #row33 {
+    width: 1000px;
+    position: relative;
+    margin-left: -18px;
+  }
+  #aboutText p{
+  }
+  #aboutText {
+    width: 500px;
+    right: 100px;
+  }
+  #splashPhoto {
+    position: relative;
+    left: 0px;
+  }
+  #middle {
+    left: -80px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #splashS {
+  }
+  #aboutText h2 {
+  }
+  #middle {
+    top: 100px;
+    position: absolute;
+  }
+
+  #middle li:nth-child(1) {
+    transform: rotate(0deg);
+    border-bottom: 2px solid #5f5f5f;
+    top: 200px;
+    left: 15px;
+  }
+  #middle li:nth-child(2) {
+    display: none;
+     
+  }
+  #aboutText {
+    width: 500px;
+    top: 400px;
+    right: 150px;
+    position: absolute;
+  }
+  #aboutText p {
+    display: block;
+    min-width: 700px;
+  }
+  #row33 {
+    position: absolute;
+    display: inline;
+    width: 700px;
+  }
+  #splashS {
+    top: -100px;
+    height: 300px;
+    left: -100px;
+    width: 700px;
+  }
+  #splashPhoto {
+     position: relative;
+     left: 200px;
+  }
+  #middle {
+    position: absolute;
+    left: 10px;
+    top: 150px;
+  }
+
+}
+
+@media only screen and (max-width: 425px) {
+  #splashS {
+    display: none;
+  }
+  #aboutText {
+    top: 600px;
+    position: absolute;
+  }
+  #middle li:nth-child(1) {
+    font-size: 32px;
+  }
+  #aboutText h2 {
+    font-size: 60px;
+    min-width: 700px;
+  }
+  #aboutText {
+    top: 430px;
+    right: -30px;
+    width: 570px;
+  }
+  #aboutText p{
+    font-size: 33px;
+    min-width: 700px;
+
+  }
+  #row33 {
+    width: 570px;
+  }
+  #hireButton {
+    width: 600px;
+    height: 100px;
+    font-size: 40px;
+  }
+}
+
+
+@media only screen and (max-width: 320px) {
+  #aboutText p{
+    font-size: 40px;
+    min-width: 700px;
+
+  }
+}

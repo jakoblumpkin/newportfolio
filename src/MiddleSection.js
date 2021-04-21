@@ -9,7 +9,7 @@ function MiddleSection() {
         <div id="myImage">
           <div id="textforintro">
             <h1>Full Stack <br/>Web Developer</h1>
-            <Button id="getintouch"><strong>GET IN TOUCH</strong></Button>
+            <a href="/"><Button id="getintouch"><strong>GET IN TOUCH</strong></Button></a>
 
           </div>
         </div>
