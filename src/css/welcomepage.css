@@ -47,14 +47,14 @@
 #LinkedinPop {
   position: absolute;
   left: 8%;
-  top: 64.5%;
+  top: 421px;
   opacity: 0;
 }
 
 #TwitterPop {
   position: absolute;
   left: 8%;
-  top: 57.5%;
+  top: 374px;
   opacity: 0;
 }
 
@@ -69,7 +69,7 @@
 #GithubPop {
   position: absolute;
   left: 8%;
-  top: 50.5%;
+  top: 332px;
   opacity: 0;
 }
 

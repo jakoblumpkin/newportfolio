@@ -7,6 +7,7 @@ import MiddleSection from './MiddleSection';
 import ScrollSection from './ScrollSection';
 import Links from './Links/Links';
 import About from './About/About';
+import Skills from './Skills/Skills';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
     </section>
     <Links/>
     <About/>
+    <Skills/>
   </body>
   );
 }
