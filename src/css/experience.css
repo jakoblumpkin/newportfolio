@@ -1,0 +1,100 @@
+#Experience {
+  background-color: transparent;
+  position: relative;
+  top: -70px;
+  height: 400px;
+  max-width: 1270px;
+  left: 20px;
+}
+
+#Years {
+  grid-template-columns: auto auto;
+  grid-column-gap: 20px;
+  width: 600px;
+  position: relative;
+  left: 60px;
+}
+#tCol {
+  max-width: 700px;
+  position: relative;
+  left: -10px;
+}
+
+#eCol {
+  max-width: 700px;
+}
+.propYear {
+  text-align: center;
+}
+
+.propText {
+  text-align: center;
+  text-indent: 18px;
+}
+
+.hr {
+  border: 5px solid #e38443;
+}
+
+#experienceTag {
+  list-style: none;
+  position: relative;
+  left: -240px;
+  display: inline;
+}
+
+#experienceTag li:nth-child(1){
+  transform: rotate(-90deg);
+  position: relative;
+  top: -235px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: 500;
+  left: 9px;
+}
+
+#experienceTag li:nth-child(2) {
+  border-left: 2px solid #5f5f5f;
+  height: 50px;
+  position: relative;
+  left: 312px;
+  top: 70px;
+}
+
+#etextArea {
+  position: relative;
+  left: 82px;
+  top: -111px;
+}
+
+#etextArea p{
+  text-indent: 30px;
+  max-width: 400px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  #experienceTag li:nth-child(1){
+    top: -150px;
+    left: 100px;
+  }
+
+}
+@media only screen and (max-width: 768px) {
+   #Experience {
+     display: inline;
+     position: relative;
+     top: 300px;
+   }
+   #eCol {
+     position: absolute;
+     top: 200px;
+   }
+   #experienceTag li:nth-child(1){
+     
+   }
+   #experienceTag li:nth-child(2) {
+     display: none;
+   }
+
+}

@@ -13,7 +13,7 @@ function Links() {
       <Container id="theContainer">
            <Row id="CardRow">
             <Card id="ExperenceCard">
-      <a href="/"><div className="insideCard">
+      <a href="#Experience"><div className="insideCard">
                 <div id="backgroundEmblem">
                     <img src={newe} height="50px" alt="dwdr3rr"/>
                 </div>
