@@ -32,7 +32,7 @@ function Header() {
         <ul id="navForA">
           <a href="/"><li>Home<FaSquareFull className="squareNav"/></li></a>
           <a href="#about" ><li>About<FaSquareFull className="squareNav"/></li></a>
-          <a href="/"><li>Skills<FaSquareFull className="squareNav"/></li></a>
+          <a href="#skillspage"><li>Skills<FaSquareFull className="squareNav"/></li></a>
           <a href="/"><li>Projects<FaSquareFull className="squareNav"/></li></a>
           <a href="/"><li>Contact<FaSquareFull className="squareNav"/></li></a>
         </ul>

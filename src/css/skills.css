@@ -6,7 +6,7 @@
 #skillRow {
   height: 350px;
   width: 80%;
-  background-color: red;
+  background-color:  transparent;
   position: relative;
   top: 65px;
   margin: 0 auto;
@@ -45,12 +45,140 @@
   max-width: 564px;
   position: relative;
   top: 28px;
+  left: 20px;
 }
 
+#iconSection {
+  position: relative;
+  top: -30px;
+}
 /* Tools*/
 
+.colPop {
+   position: relative;
+   max-width: 112px;
+}
+.colPop h2{
+  font-size: 15px;
+  position: relative;
+  top: 10px;
+  left: 13px;
+}
 .toolCard {
   height: 75px;
   width: 75px;
   border-radius: 10px;
+  margin-left: 0px;
+  margin-top: 20px;
+}
+
+.toolCard img{
+    margin: auto;
+}
+
+
+/*.iconPopover {
+  transform: rotate(-90deg);
+  height: 100px;
+  position: absolute;
+  margin-top: -90px;
+  margin-left: 80px;
+  opacity: 0;
+  width: 50px;
+  background-color: #e38443;
+}*/
+
+@media only screen and (max-width: 768px) {
+  #skillstag {
+    height: 100px;
+    position: relative;
+    left: -13px;
+  }
+  #skillRow {
+    display: inline;
+  }
+  #skillspage {
+    position: relative;
+    top: 140px;
+  }
+  #textArea {
+    position: relative;
+    left: 10px;
+    top: -13px;
+  }
+  #forSkillsTitle {
+    display: inline;
+  }
+  #skillstag li:nth-child(1){
+     transform: rotate(0deg);
+     border-bottom: 2px solid #5f5f5f;
+     width: 90px;
+  }
+  #skillstag li:nth-child(2){
+    display: none;
+  }
+  #iconSection {
+    position: relative;
+    top: -30px;
+  }
+}
+
+
+@media only screen and (max-width: 425px) {
+  #skillspage {
+    top: 750px;
+    left: -20px;
+  }
+  #skillstag li:nth-child(1){
+    font-size: 32px;
+    width: 260px;
+  }
+  #textArea h2{
+     font-size: 60px;
+     min-width: 700px;
+  }
+  #textArea p{
+    font-size: 33px;
+    min-width: 700px;
+  }
+  #textArea {
+    width: 700px;
+  }
+  #iconSection {
+    height: 600px;
+    min-width: 700px;
+  }
+  .toolCard {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    left: 10px;
+  }
+  .toolCard {
+
+  }
+  .toolCard img {
+    height: 100px;
+    width: 100px;
+  }
+  #iconRow {
+    width: 700px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 80px;
+  }
+  .colPop col{
+    width: 238px;
+    position: relative;
+  }
+  #forHover h2{
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #skillspage {
+    top: 1015px;
+    left: -20px;
+  }
 }
