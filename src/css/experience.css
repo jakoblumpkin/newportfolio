@@ -91,10 +91,57 @@
      top: 200px;
    }
    #experienceTag li:nth-child(1){
-     
+     top: -88px;
+     transform: rotate(0deg);
+     left: 271px;
+     border-bottom: 2px solid #5f5f5f;
+     width: 100px;
    }
    #experienceTag li:nth-child(2) {
      display: none;
    }
+   #etextArea {
+    left: 18px;
+    top: -60px;
+    height: 500px;
+   }
+   #Years {
+    left: 30px;
+    top: 20px;
+   }
+}
 
+@media only screen and (max-width: 425px) {
+  #Experience {
+    top: 1475px;
+  }
+  #experienceTag li:nth-child(1) {
+    font-size: 32px;
+    width: 190px;
+  }
+  #etextArea{
+    height: 1400px;
+  }
+  #etextArea h2 {
+    font-size: 60px;
+    min-width: 700px;
+  }
+  #etextArea p{
+    font-size: 33px;
+    min-width: 700px;
+  }
+  #Years {
+    display: inline;
+    top: 400px;
+    min-height: 500px;
+    width: 100px;
+  }
+  #eCol {
+    height: 700px;
+    min-height: 300px;
+  }
+  .cards {
+    width: 300px;
+    height: 600px;
+  }
 }
