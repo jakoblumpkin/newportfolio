@@ -7,17 +7,19 @@ function Experience() {
   return (
     <Row id="Experience">
       <Col id="eCol">
-         <Row id="Years">
-          <Ecard year="2020" experience="
-          I started learning to code in July, by following online tutorials. 
-          Then started building small projects with the skills I gained.
-          "/>
-          <Ecard year="2021" experience="
-          I attended coding bootcamp at Code Fellows from January to April.
-           I gained a deeper understanding of web development. Then I got 
-           accepted to attend a software development apprenticeship at IBM.
-          "/>
-         </Row>
+        <div id="outterE">
+            <Row id="Years">
+                <Ecard year="2020" experience="
+                I started learning to code in July, by following online tutorials. 
+                Then started building small projects with the skills I gained.
+                "/>
+                <Ecard year="2021" experience="
+                I attended coding bootcamp at Code Fellows from January to April.
+                I gained a deeper understanding of web development. Then I got 
+                accepted to attend a software development apprenticeship at IBM.
+                "/>
+            </Row>
+         </div>
       </Col>
       <Col id="tCol">
          <ul id="experienceTag">
@@ -33,7 +35,6 @@ function Experience() {
                code, learning the foundations, learning how to 
                communicate with the backend and doing many code challenges.
             </p>
-         
          </Col>    
       </Col>
     </Row>

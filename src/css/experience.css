@@ -120,7 +120,7 @@
     width: 190px;
   }
   #etextArea{
-    height: 1400px;
+    height: 300px;
   }
   #etextArea h2 {
     font-size: 60px;
@@ -133,15 +133,25 @@
   #Years {
     display: inline;
     top: 400px;
-    min-height: 500px;
+    min-height: 300px;
     width: 100px;
   }
   #eCol {
-    height: 700px;
+    height: 300px;
     min-height: 300px;
+    min-width: 400px;
   }
-  .cards {
-    width: 300px;
+  #outterE {
+    display: none;
+  }
+  #tCol {
     height: 600px;
+  }
+}
+
+
+@media only screen and (max-width: 320px) {
+  #tCol {
+    top: 300px;
   }
 }
