@@ -25,7 +25,7 @@ function Links() {
               </div></a>
           </Card>
           <Card id="ProjectCard">
-           <a href="/"><div className="insideCard">
+           <a href="#workSection"><div className="insideCard">
               <div id="backgroundCheck">
                   <img src={newCheck} alt="dwd"/>
               </div>

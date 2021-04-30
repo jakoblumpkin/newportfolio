@@ -1,0 +1,51 @@
+#workSection {
+  height: 500px;
+}
+#theTextArea {
+  display: inline;
+}
+
+#workTag {
+  list-style: none;
+  position: relative;
+  top: 35px;
+  left: 28px;
+  max-height: 150px;
+}
+
+#workTag li:nth-child(1){
+  transform: rotate(-90deg);
+}
+
+#workTag li:nth-child(2) {
+  border-left: 2px solid #5f5f5f;
+  height: 50px;
+  position: relative;
+  left: 40px;
+  top: 50px;
+}
+
+#workSection {
+  width: 1300px;
+}
+#workText {
+  max-width: 350px;
+  max-height: 200px;
+  position: relative;
+  left: -40px;
+}
+#workText p{
+  max-width: 400px;
+}
+
+#workSection {
+  grid-template-columns: auto auto;
+  grid-column-gap: 35px;
+}
+
+#projectCard {
+  width: 250px;
+  height: 400px;
+  border-radius: 20px;
+}
+

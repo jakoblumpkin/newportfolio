@@ -9,6 +9,7 @@ import Links from './Links/Links';
 import About from './About/About';
 import Skills from './Skills/Skills';
 import Experience from './Experience/Experience';
+import Work from './Work/Work';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
     <About/>
     <Skills/>
     <Experience/>
+    <Work/>
   </body>
   );
 }
