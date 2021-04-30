@@ -16,9 +16,12 @@ function Work() {
         backend programming languages and frameworks.
       </p>
     </Col>
-      <ProjectCard/>
-      <ProjectCard/>
-      <ProjectCard/>
+      <ProjectCard project="https://nervous-heyrovsky-290926.netlify.app"
+                   code="https://github.com/jakoblumpkin/newportfolio"/>
+      <ProjectCard project="/"
+                   code="/"/>
+      <ProjectCard project="/"
+                   code="/"/>
   </Row>
   );
 }
