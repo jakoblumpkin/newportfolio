@@ -75,10 +75,12 @@
 
 @media only screen and (max-width: 1024px) {
   #experienceTag li:nth-child(1){
-    top: -150px;
-    left: 100px;
+    top: -130px;
+    left: 126px;
   }
-
+  #Experience {
+    max-width: 1000px;
+  }
 }
 @media only screen and (max-width: 768px) {
    #Experience {

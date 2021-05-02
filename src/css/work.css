@@ -15,6 +15,7 @@
 
 #workTag li:nth-child(1){
   transform: rotate(-90deg);
+  font-weight: 500;
 }
 
 #workTag li:nth-child(2) {
@@ -88,4 +89,58 @@
 
 #linkCard {
   text-decoration: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    #workSection {
+      width: 1000px;
+    }
+    #workSection a:nth-child(5) {
+      position: relative;
+      left: 100px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+  #workSection {
+    margin-top: 320px;
+    max-width: 748px;
+  }
+  #workSection a:nth-child(5) {
+    left: 100px;
+  }
+  #workSection a:nth-child(4){
+    position: relative;
+      left: 100px;
+  }
+  #workTag li:nth-child(1) {
+    transform: rotate(0deg);
+    border-bottom: 2px solid #5f5f5f;
+    position: relative;
+    top: -70px;
+    left: 10px;
+  }
+  #workText {
+    position: relative;
+    left: -100px;
+  }
+
+
+  #workTag li:nth-child(2) {
+     display: none;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #workSection {
+    margin-top: 1600px;
+  }
+  #workTag li:nth-child(1) {
+    font-size: 32px;
+    width: 190px;
+  }
+  #workText {
+    
+  }
 }
