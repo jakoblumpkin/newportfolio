@@ -134,13 +134,60 @@
 
 @media only screen and (max-width: 425px) {
   #workSection {
-    margin-top: 1600px;
+    margin-top: 1370px;
   }
   #workTag li:nth-child(1) {
     font-size: 32px;
     width: 190px;
   }
   #workText {
-    
+    min-width: 300px;
+    margin-top: 44px;
+    margin-left: -102px;
+  }
+  #workText h2{
+    font-size: 60px;
+    min-width: 700px;
+  }
+  #workText p{
+    font-size: 33px;
+    min-width: 700px;
+  }
+  #workSection a:nth-child(3){
+    position: absolute;
+    top: 4550px;
+    left: 150px;
+  }
+  #workSection a:nth-child(4){
+    position: absolute;
+    top: 5500px;
+    left: 150px;
+  }
+  #workSection a:nth-child(5){
+    position: absolute;
+    top: 6450px;
+    left: 150px;
+  }
+
+
+
+  #projectCard {
+    width: 550px;
+    height: 820px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #workSection {
+    margin-top: 1650px;
+  }
+  #workSection a:nth-child(3){
+    top: 4900px;
+  }
+  #workSection a:nth-child(4){
+    top: 5820px;
+  }
+  #workSection a:nth-child(5){ 
+    top: 6740px;
   }
 }
