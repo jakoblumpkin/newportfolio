@@ -10,6 +10,7 @@ import About from './About/About';
 import Skills from './Skills/Skills';
 import Experience from './Experience/Experience';
 import Work from './Work/Work';
+import FormSection from './Form/FormSection';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
     <Skills/>
     <Experience/>
     <Work/>
+    <FormSection/>
   </body>
   );
 }

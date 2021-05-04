@@ -29,7 +29,7 @@ function About() {
              and prior to the boot camp I was teaching myself how to code.
               I have worked with creative teams to build web applications, 
              which includes communication and daily stand ups.</p>
-            <a href="/"><Button variant="primary" id="hireButton">HIRE ME</Button></a>
+            <a href="#formSection"><Button variant="primary" id="hireButton">HIRE ME</Button></a>
         </Col>
       </Row>
       
