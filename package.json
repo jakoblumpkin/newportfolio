@@ -10,6 +10,7 @@
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^4.6.0",
+    "emailjs-com": "^2.6.4",
     "mime": "^1.6.0",
     "mime-types": "^2.1.30",
     "node-static": "0.7.10",

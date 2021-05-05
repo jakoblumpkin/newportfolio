@@ -7,7 +7,7 @@
   list-style: none;
   position: relative;
   top: 35px;
-  left: 29px;
+  left: 92px;
 }
 
 #formTag li:nth-child(1){
@@ -25,10 +25,12 @@
 
 #formText {
    max-width: 400px;
+   position: relative;
+   left: 65px;
 }
 
 #formText p{
-  max-width: 300px;
+  max-width: 500px;
   position: relative;
   top: 0px;
 }
@@ -45,6 +47,8 @@
   min-height: 515px;
   border-radius: 10px;
   box-shadow: 5px 10px blur;
+  position: relative;
+  left: 240px;
 }
 #formforMessage div:nth-child(1){
   margin-top: 30px;
@@ -60,6 +64,11 @@
   position: relative;
   top: 10px;
   left: 10px;
+  opacity: .9;
+}
+
+#formforMessage button:hover{
+  opacity: .92;
 }
 
 
