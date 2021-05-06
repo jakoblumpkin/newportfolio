@@ -1,6 +1,7 @@
 #formSection {
   max-width: 1300px;
   margin-top: 100px;
+  height: 600px;
 }
 
 #formTag {
@@ -44,7 +45,7 @@
 #formforMessage {
   background-color: white;
   min-width: 440px;
-  min-height: 515px;
+  height: 528px;
   border-radius: 10px;
   box-shadow: 5px 10px blur;
   position: relative;
@@ -82,10 +83,22 @@
   font-weight: 700;
 }
 
+.textEdit {
+
+}
+
 #messageSection {
   height: 120px;
   word-wrap: break-word;
 }
+
+
+.borderStyle:focus {
+  border-color: #e38443;
+  box-shadow: 1px 1px 1px 1px #e38443;
+}
+
+
 #messageSection:focus{
   box-shadow: red;
 }
@@ -95,4 +108,52 @@
 #messageSection::placeholder {
    
 
+}
+
+#theAlert {
+   background-color: green;
+   height: 50px;
+   /*opacity: .68;*/
+   opacity: 0;
+   border-radius: 0px;
+   position: relative;
+   top: 500px;
+   left: 120px;
+}
+
+
+#theAlert p{
+  color: white;
+  margin-right: 20px;
+}
+
+@keyframes messageSent {
+  from {opacity: 0;}
+
+  to {opacity: 0.90;
+    transform: translate3d(-140px,0,0);
+    }
+}
+
+#formIcons {
+  list-style: none;
+  display: flex;
+}
+#formIcons a {
+  color: white;
+  position: relative;
+  left: 7px;
+  bottom: 4px;
+}
+
+.eachIcon:hover{
+  background-color: #e38443;
+}
+.eachIcon {
+  margin: 10px;
+  background-color: black;
+  font-size: 25px;
+  border-radius: 20px;
+  width: 38px;
+  height: 38px;
 }

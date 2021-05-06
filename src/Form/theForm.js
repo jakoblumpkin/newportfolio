@@ -4,12 +4,12 @@ import Button from 'react-bootstrap/Button';
 import emailjs from 'emailjs-com';
 import{ init } from 'emailjs-com';
 init("user_HbXSwUrhvxqgOmDqO82UD");
-import { FaUserAlt } from 'react-icons/fa';
-import InputGroup from 'react-bootstrap/InputGroup';
 
-function TheForm() {
+function TheForm(props) {
   const sendemail = (e) => {
     e.preventDefault();
+    var alertElement=document.getElementById("theAlert");
+
     var objP={
       name: e.target[0].value,
       email: e.target[1].value,
@@ -30,6 +30,17 @@ function TheForm() {
       e.target[1].value="";
       e.target[2].value="";
       e.target[3].value="";
+      
+      if(alertElement){
+        alertElement.style.animationName="messageSent";
+        alertElement.style.animationDuration="2s";
+      }
+  }
+
+  const theMouse = () => {
+    var alertElement=document.getElementById("theAlert");
+    alertElement.style.animationName="";
+    alertElement.style.animationDuration="";
   }
   return (
     <Form id="formforMessage" onSubmit={sendemail}>
@@ -37,17 +48,16 @@ function TheForm() {
           <Form.Group className="theGroup">
             <Form.Label className="textEdit">Name</Form.Label>
             <Form.Control
-               <InputGroup.Prepend>
-               <InputGroup.Text id="basic-addon1">@</InputGroup.Text>
-               </InputGroup.Prepend>
-              type="text"
+              className="borderStyle"
+              as="input"
               name="name"
               placeholder="e.g. John Doe" required/>
           </Form.Group>
 
           <Form.Group className="theGroup">
             <Form.Label className="textEdit">Email</Form.Label>
-            <Form.Control 
+            <Form.Control
+              className="borderStyle"
               type="text"
               name="email"
               placeholder="e.g. john.doe@gmail.com" required/>
@@ -55,7 +65,8 @@ function TheForm() {
 
           <Form.Group className="theGroup">
             <Form.Label className="textEdit">Phone (Optional)</Form.Label>
-            <Form.Control 
+            <Form.Control
+              className="borderStyle"
               type="text"
               name="phone"
               placeholder="Phone Number"/>
@@ -64,6 +75,7 @@ function TheForm() {
           <Form.Group className="theGroup">
             <Form.Label className="textEdit">Message</Form.Label>
             <Form.Control
+              className="borderStyle"
               as="textarea"
               id="messageSection"
               type="text"
@@ -71,7 +83,7 @@ function TheForm() {
               placeholder="Write message..." required/>
           </Form.Group>
 
-          <Button type="submit">SEND</Button>
+          <Button type="submit" onMouseEnter={theMouse}>SEND</Button>
       </Col>
     </Form>
   );
