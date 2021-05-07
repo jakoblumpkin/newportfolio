@@ -125,3 +125,9 @@ header {
   }
 }
 
+@media only screen and (min-width: 2560px) {
+   #name {
+    margin-left: 7%;
+    margin-top: 2%;
+  }
+}

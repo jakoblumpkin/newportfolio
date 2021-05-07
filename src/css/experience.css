@@ -157,3 +157,13 @@
     top: 300px;
   }
 }
+
+@media only screen and (min-width: 2560px) {
+    #tCol {
+      position: relative;
+      left: 750px;
+    }
+    #eCol {
+      left: 500px;
+    }
+}

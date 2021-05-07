@@ -44,7 +44,7 @@ function TheForm(props) {
   }
   return (
     <Form id="formforMessage" onSubmit={sendemail}>
-      <Col>
+      <Col id="innerForm">
           <Form.Group className="theGroup">
             <Form.Label className="textEdit">Name</Form.Label>
             <Form.Control

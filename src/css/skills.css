@@ -182,3 +182,11 @@
     left: -20px;
   }
 }
+
+
+
+@media only screen and (min-width: 2560px) {
+  #skillRow {
+    margin-left: 520px;
+   }
+}

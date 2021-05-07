@@ -174,3 +174,121 @@
     left: 42px;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  #formSection {
+    display: inline;
+    position: relative;
+    top: 350px;
+  }
+  #formforMessage {
+    width: 280px;
+    height: 500px;
+    left: 95px;
+  }
+  #innerForm {
+    position: relative;
+    top: 10px;
+  }
+  #formText {
+    position: relative;
+    left: 80px;
+  }
+  #formTag li:nth-child(1){
+   transform: rotate(0deg);
+    border-bottom: 2px solid #5f5f5f;
+    width: 72px;
+    position: relative;
+    top: -20px;
+    left: 10px;
+  }
+  #formTag li:nth-child(2){
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 425px) {
+  #formSection {
+    top: 2700px;
+  }
+  #formIcons {
+    display: none;
+  }
+  #formTag li:nth-child(1){
+    font-size: 32px;
+    width: 150px;
+  }
+  #formText {
+    min-width: 700px;
+  }
+  #formText h2{
+    font-size: 60px;
+    min-width: 500px;
+  }
+  #formText p{
+    font-size: 33px;
+    min-width: 700px;
+  }
+
+  #formforMessage {
+    position: relative;
+    margin-top: 70px;
+    width: 600px;
+    height: 800px;
+  }
+  .textEdit {
+    font-size: 30px;
+  }
+  .borderStyle {
+    width: 550px;
+    height: 60px;
+  }
+  #innerForm{
+    position: relative;
+    top: 30px;
+    right: 80px;
+  }
+  #formforMessage button {
+    height: 70px;
+    width: 540px;
+  }
+  #formforMessage button {
+    font-size: 32px;
+  }
+  #formforMessage button {
+    position: relative;
+    left: 96px;
+    top: 50px;
+  }
+}
+
+
+@media only screen and (max-width: 375px) {
+   #formforMessage {
+      width: 650px;
+      height: 850px;
+   }
+   .textEdit {
+    font-size: 35px;
+  }
+  .borderStyle {
+   width: 570px;
+  }
+  #innerForm {
+    right: 86px;
+    top: 32px;
+  }
+  #formforMessage button {
+    left: 115px;
+    width: 570px;
+  }
+}
+
+
+
+@media only screen and (min-width: 2560px) {
+   #formSection {
+     margin: 0 auto;
+   }
+}

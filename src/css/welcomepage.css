@@ -65,7 +65,6 @@
      transform: translate3d(-20px,0,0);}
 }
 
-
 #GithubPop {
   position: absolute;
   left: 8%;
@@ -73,23 +72,9 @@
   opacity: 0;
 }
 
-
-
-
-
-
-
-
-
 .notePop{
   background-color: #e38443;
 }
-
-
-
-
-
-
 
 #MiddleSection {
   width: stretch;
@@ -482,3 +467,4 @@
     width: 270%;
   }
 }
+
