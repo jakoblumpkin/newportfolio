@@ -468,3 +468,16 @@
   }
 }
 
+@media only screen and (min-width: 2560px) {
+  #textforintro {
+    position: relative;
+    top: 500px;
+  }
+  #splashImage {
+    width: 1100px;
+  }
+  #verticallineScroll {
+    position: relative;
+    bottom: 103px;
+  }
+}
