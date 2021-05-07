@@ -89,8 +89,25 @@
   margin: 1% auto;
 }
 
+@media only screen and (min-width: 1024px) {
+  @keyframes splashImage {
+    from {width: 60%;
+          height: 95%;}
+    to {width: 61%;
+      height: 96%;}
+  }
+  #splashImage:hover {
+    animation-name: splashImage;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+}
 #myImage {
-   
+  background-image: url(../images/newmypicture.png);
+  background-size: 370px 500px;
+  top: -50px;
+  height: 500px;
+  background-repeat: no-repeat;
 }
 
 #textforintro {
@@ -350,14 +367,14 @@
     left: -2%;
   }
   #splashImage {
-    height:70%;
-    width: 40%;
+    height:60%;
+    width: 70%;
     position: relative;
     left: 4%;
   }
   #textforintro {
     position: relative;
-    left: -30%;
+    left: 10%;
   }
   #ExperenceCard {
     width: 47%;
@@ -377,8 +394,8 @@
     width: 200%;
   }
   #textforintro {
-    top: 450px;
-    left: 1%;
+    top: 320px;
+    left: 28%;
   }
   #textforintro h1 {
     font-size: 70px;
@@ -390,7 +407,10 @@
   #CardRow {
     display: inline;
   }
-  
+  #myImage {
+    position: absolute;
+    top: 20px;
+  }
   #ExperenceCard {
     width: 205%;
     height: 230px;
