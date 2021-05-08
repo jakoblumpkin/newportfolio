@@ -4,6 +4,18 @@
   display: flex;
 }
 
+#selfieImage {
+  background-image: url(../images/newibm.png);
+  background-repeat: no-repeat;
+  background-size: 440px 600px;
+  height: 520px;
+  width: 320px;
+  position: absolute;
+  border-radius: 20px;
+  top: -200px;
+  left: 130px;
+}
+
 #row33 {
   background-color: transparent;
   min-height: 300px;
@@ -95,6 +107,9 @@
   }
   #middle {
     left: -80px;
+  }
+  #selfieImage {
+    left: 100px;
   }
 }
 

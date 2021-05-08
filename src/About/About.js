@@ -11,7 +11,7 @@ function About() {
       <Row id="row33">
         <Col id="splashS">
           <div id="splashPhoto">
-            <div>
+            <div id="selfieImage">
 
             </div>
           </div>
