@@ -1,0 +1,49 @@
+#FooterSection {
+  background-color: white;
+  width: 101.1%;
+  height: 100px;
+  margin-top: 50px;
+}
+
+#Fname {
+  display: flex;
+  position: absolute;
+  margin-left: 8%;
+  margin-top: 3.6%;
+}
+
+#Fname h1 {
+  font-size: 160%;
+  font-family: 'DM Sans', sans-serif;
+  position: relative;
+  top: -15px;
+}
+
+#FsquareName {
+  color: #e38443;
+  font-size: 38%;
+  margin-top: 1.2%;
+  position: relative;
+  left: .75%;
+}
+
+#theSign {
+  display: flex;
+  position: relative;
+  left: 900px;
+  top: 20px;
+}
+
+#theSign h2{
+  font-family: 'DM Sans', sans-serif;
+}
+
+#theSign p{
+  font-family: 'Cedarville Cursive', cursive;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  position: relative;
+  top: 7px;
+  left: 10px;
+
+}

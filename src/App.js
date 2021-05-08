@@ -11,6 +11,8 @@ import Skills from './Skills/Skills';
 import Experience from './Experience/Experience';
 import Work from './Work/Work';
 import FormSection from './Form/FormSection';
+import Footer from './Footer/Footer';
+
 
 function App() {
   return (
@@ -27,6 +29,7 @@ function App() {
     <Experience/>
     <Work/>
     <FormSection/>
+    <Footer/>
   </body>
   );
 }
