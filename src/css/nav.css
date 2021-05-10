@@ -1,6 +1,7 @@
 body {
    margin-top: -21px;
    background-color: #e6e6e6;
+   height: 3740px;
 }
 header {
   min-height: 105px;
@@ -83,6 +84,7 @@ header {
   #squareName {
     margin-top: -.5%;
   }
+
 }
 
 @media only screen and (max-width: 768px) {

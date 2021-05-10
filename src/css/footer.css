@@ -1,10 +1,10 @@
 #FooterSection {
-  background-color: white;
+  background-color: transparent;
   width: 101.1%;
-  height: 100px;
-  margin-top: 50px;
+  height: 70px;
+  position: absolute;
+  top: 3640px;
 }
-
 #Fname {
   display: flex;
   position: absolute;
@@ -46,4 +46,55 @@
   top: 7px;
   left: 10px;
 
+}
+
+@media only screen and (max-width: 1024px) {
+  #theSign {
+    position: relative;
+    left: 680px;
+  }
+  #FooterSection {
+    top: 3830px;
+  }
+  body {
+    min-height: 2000px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #FooterSection {
+    top: 4600px;
+  }
+  #theSign {
+    left: 500px;
+  }
+  body {
+    min-height: 3500px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #FooterSection {
+    top: 8650px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #FooterSection {
+    top: 9000px;
+  }
+  #theSign {
+    left: 400px;
+  }
+}
+
+
+
+@media only screen and (min-width: 2560px) {
+  #FooterSection {
+    top: 4000px;
+  }
+  #theSign {
+    left: 1800px;
+  }
 }

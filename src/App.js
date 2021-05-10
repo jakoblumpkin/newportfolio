@@ -16,7 +16,7 @@ import Footer from './Footer/Footer';
 
 function App() {
   return (
-  <body>
+  <body id="wholeBody">
     <Header/>
     <section id="welcomePage">
       <SideIconLinks/>
